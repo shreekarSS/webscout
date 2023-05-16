@@ -10,7 +10,7 @@ const Buyer = () => {
   return (
     <div className='map'>
       <GoogleMapReact
-        bootstrapURLKeys={{key: 'AIzaSyDogLHNgNA6baqGzy-D1pByVajYn8IkCFo'}}
+        bootstrapURLKeys={{key: 'xxxxxxxxxxxxxxxxxxxxx'}}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}
