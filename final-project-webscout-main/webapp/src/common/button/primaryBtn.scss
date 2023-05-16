@@ -1,0 +1,27 @@
+.primaryBtn{
+    color:#ffffff;
+    font-weight: 500;
+    padding:0.5em 1.5em;
+    background:rgb(28, 28, 85);
+    border-radius:3px;
+    font-size:1.25rem;
+    cursor:pointer
+}
+
+.green {
+    &:hover {
+    background: green;
+    }
+}
+
+.red {
+    &:hover {
+    background: red;
+    }
+}
+
+.yellow {
+    &:hover {
+    background: yellow;
+    }
+}

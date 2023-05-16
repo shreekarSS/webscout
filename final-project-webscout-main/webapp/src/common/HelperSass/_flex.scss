@@ -1,0 +1,7 @@
+//Flex
+@mixin flex-mixin($align: unset, $justify: unset) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+  }
+  

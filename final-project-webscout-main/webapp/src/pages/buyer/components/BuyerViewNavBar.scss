@@ -1,0 +1,22 @@
+.BuyerNav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-evenly;
+    background-color:rgba($color: #72718a, $alpha: 1.0);
+    width: 100%;
+}
+.BuyerNavBar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height:10vh;
+    color:rgb(17, 16, 97);
+    margin-bottom:1em;
+}
+
+.ListItemCard{
+    display: flex;
+    width: 100%;
+    column-span: all;
+}

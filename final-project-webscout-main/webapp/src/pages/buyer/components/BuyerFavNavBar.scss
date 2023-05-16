@@ -1,0 +1,17 @@
+.BuyerFavNav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-evenly;
+    background-color:rgba($color: #72718a, $alpha: 1.0);
+    width: 100%;
+}
+.BuyerFavNavBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height:10vh;
+    color:rgb(17, 16, 97);
+    margin-bottom:1em;
+}

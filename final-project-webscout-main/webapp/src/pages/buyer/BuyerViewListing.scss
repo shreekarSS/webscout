@@ -1,0 +1,48 @@
+.MainPageContainer {
+  display: flex;
+  //justify-content: 'space-evenly';
+  flex-direction: column;
+}
+.ListContainer {
+  display: flex;
+  padding-right: 1em;
+  flex-direction: row;
+  //max-width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  //justify-content: space-between;
+  //overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+  background-color: rgb(105, 129, 160);
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+.MapViewBox {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  width: auto;
+  justify-content: left;
+  padding: 1em;
+}
+
+.GridListing{
+  display:grid;
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: 60pm 1fr;
+  justify-content: left;
+}
+
+.ListItemCard{
+  width: auto;
+  align-content: flex-start;
+  height: fit-content;
+}
+
+.MapViewBox {
+  width: 350px;
+  height: 350px;
+}
